@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - assigning a random to avariable
+ * main - assigning a random number to a variable
  *
  * Return: 0
  */
@@ -14,10 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positive\n", n)
-	else if  (n < 0)
-		printf("%d is negative\n", n)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	else
-		print("%d is zero\n", n)
+		printf("%d is zero\n", n);
 	return (0);
 }
