@@ -1,14 +1,15 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 /**
- * print_array - printing an array
+ * print_array - printing an array of n elements
  * @a:an int in the array
- * @n: number of array
+ * @n: int to check
  * Return: 0
  */
 
 void print_array(int *a, int n)
 {
+
 	int x;
 
 	for (x = 0; x < n; x++)
@@ -19,5 +20,5 @@ void print_array(int *a, int n)
 
 			printf("%d", a[x]);
 
-			printf('\n');
+			printf("\n");
 }
