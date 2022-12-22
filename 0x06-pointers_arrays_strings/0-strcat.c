@@ -3,10 +3,10 @@
 *_strcat - to concatenate two string
 *@dest: destination string
 *@src: source string
-*Return:dest
+*Return:gdest
 */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 
 	int a;
@@ -17,13 +17,16 @@ char *_strcat(char *dest, char *src);
 	{
 		a++;
 	}
+
 		b = 0;
 	while (src[b] != '\0')
 		{
 		dest[a] = src[b];
-			a++
-			b++
+			a++;
+			b++;
 		}
+
 	dest[a] = '\0';
+
 	return (dest);
 }
